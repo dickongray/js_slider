@@ -1,0 +1,72 @@
+/********** MAIN **********/
+body{
+  margin: 0;
+  background-color: #f2f2f2;
+}
+/********** SLIDER **********/
+.slider {
+  width: 90vw;
+  margin: 0 auto;
+}
+.slide-viewer {
+    overflow: hidden;
+    height: 90vh;
+  }
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+  }
+.slide:first-child {
+    display: block;
+  }
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+  border: none;
+  background: none;
+}
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;
+}
+.active {
+  border: none;
+  color: #f7af00;
+  background: none;
+}
+ .slide-btn:active  {
+  color: #f7af00;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.slide-btn{
+  color: #f7af00;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.slide-btn:hover {
+  color: #f7af00;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+/****************Font:****************/
+h1{
+font-family: 'Raleway', sans-serif; 
+text-align: center; 
+color: #fff; 
+font-size: 2em;
+margin: 0;
+}
